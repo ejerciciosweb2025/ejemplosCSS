@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos body 4</title>
+</head>
+<body>
+    <p id="capitulo2">
+        La etiqueta main es una etiqueta semántica, de jerarquía agrupa la estructura lógica <br>
+        identifica de forma inequívoca el bloque principal de información principal de una página
+        <p>El contenedor main puede contener otros bloques como article, section, aside, footer, header, nav </p> 
+    </p>
+    <p>nav sirve para albergar enlaces de navegación, menús o índices</p>
+    <p>p Delimita un párrafo</p>
+    <nav>
+        <ul>
+            <li><a href="#capitulo1">bloque 1</a></li>
+            <li><a href="#capitulo2">bloque 2</a></li>
+            <li><a href="#capitulo3">bloque 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>
+            pre representa un párrafo tal cual está escrito
+        </p>
+        <p>
+            Este texto está dentro de un párrafo.
+            Las tabulaciones, saltos de línea y los espacios               múltiples se ignoran.
+        </p>
+        <pre>
+            Este texto está dentro de un párrafo.
+            Las tabulaciones, saltos de línea y los espacios               múltiples no se ignoran.
+        </pre>
+        <section>
+            <p id="capitulo1">section representa una sección genérica del documento al igual que article</p>
+            <p>dependiendo de la fuente suelen usar section dentro de article o article dentro de section</p>
+            <p>Dentro de un libro la sección sería el titulo y article serían los párrafos </p>
+            <p>O bien en un periódico una noticia o artículo contendría secciones</p>
+            <p>Aunque es más habitual ver section que agrupe article ...</p>
+        </section>
+        <h4>Los enlaces son imprescindibles en una web
+        </h4>
+        <p>Aunque en la mayoría de casos los enlaces los hagamos a otra web </p>
+        <p>siempre puede existir la posibilidad que deseemos crear enlaces internos a nuestra propia web</p>
+        <p>Además los enlaces nos puede ser interesar abrirlos con una pestaña con la propiedad _blank</p>
+        <p>O usar enlaces en la misma web usando _self o _parent</p>
+        <p>Por otra parte recordemos que los enlaces pueden contener un enlace a un correo electónico</p>
+        <p>Para ello, mostramos el siguiente ejemplo: </p>
+        <br>
+        <p>Un enlace se crea usando a <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links" target="_blank">Crear enlaces externos</a></p>
+        <p>O bien <a href="mailto:correo@correo.es">Crear enlaces a email</a></p>
+        <p>O bien <a href="#capitulo2">Enlaces internos</a></p>
+        <p>Otras veces se <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/640px-W3C%C2%AE_Icon.svg.png"></a>crean enlaces a imágenes. pincha en la imagen </a></p>
+        <p>Otras veces se crean enlaces con imágenes como <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/640px-W3C%C2%AE_Icon.svg.png" alt="Imagen" width="50" height="50"></a></p>
+        
+        <section>
+            <article>
+                <h4>Existen otras etiquetas interesantes</h4>
+                <p>Como abbr que se usa como abreviatura o acrónimo </p>
+                <p>De todos los videojuegos, el nuevo que ha salido al mercado es el <abbr title="Call Of Duty">COD</abbr> </p>
+            </article>
+            <article>
+                <p>Existe otras etiquetas muy curiosas como bdi o bdo</p>
+                <p>Estas etiquetas se usar para establecer la dirección del texto, aunque no se mostrará se indica, si de <bdo> derecha a izquierda (árabe o hebreo) </bdo>o si de <bdi> izquierda a derecha (español o inglés)</bdi></p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h4>Otras</h4>
+                La etiqueta code define que el contenido escrito en ese bloque se ha escrito en un programa informático
+
+                <p>En Java, con <code>Math.random()</code>, se puede generar un número aleatorio </p>
+            </article>
+            <article>
+                <h4>Data</h4>
+                    <p>Vincula el contenido con una traducción comprensible por una máquina. </p>
+                    <p>No tiene un efecto visual en la página pero facilita el procesamiento automático</p>
+                    <ul>
+                        <li>Ingresos anuales: <data value="10500300">10500300€</data> </li>
+                        <li>Número de unidades: <data value="5344">5000€</data></li>
+                        <li>Vendedor del año: <data value="Calamaro, Diego"> Diego, Calamaro</data> </li>
+                    </ul>
+                <h4>Del</h4>
+                <p>Permite marcar un contenido textual para indicar que el texto ha sido borrado. Se muestra tachado</p>
+                <p>
+                    El lenguaje de programación más utilizado es
+                    <del datetime="2020-03-04 10:00:00" cite="estudiolenguajes.html">Java</del> Python
+                </p>
+                <h4>Dfn</h4>
+                <p>Se usa para definir un término</p>
+                <p>Los <dfn>videojuegos de plataformas</dfn> permiten al jugador andar, correr, saltar, esquivar ... <br>
+                    El objetivo que el jugador se mueva hasta conseguir llegar al final del objetivo</p>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>

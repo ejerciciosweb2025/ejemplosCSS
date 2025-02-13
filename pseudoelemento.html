@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelemento</title>
+    <style>
+        /*
+        ::after: Permite añadir contenido con el atributo content después del elemento seleccionado
+        ::before Permite añadir contenido con el atributo content antes del elemento seleccionado
+        ::first-letter Primera letra del primer bloque de un elemento seleccionado
+        ::first-line Primera línea del primer bloque de un elemento seleccionado
+        ::selection permite modificar el estilo de la selección realizada con el ratón
+
+        */
+
+        #quijote::after{
+            content: "SEGUIR LEYENDO...";
+        }
+        #quijote::first-letter{
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <p id="quijote">
+        En un lugar de la mancha cuyo nombre no me acuerdo, no hace mucho tiempo que vivía un hidalgo...
+    </p>
+</body>
+</html>

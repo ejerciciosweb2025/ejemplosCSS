@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+        /*Escribe el siguiente contenido en tu editor de código y prueba los resultados:*/
+        /*
+        A~B son hermanos
+        A+B son hermanos adyacentes
+        A>B son hijos
+        A B, B es descendiente de A, pero no necesariamente es hijo directo.
+        */
+
+        h2~p{
+            background-color: orange;        }
+
+        article>p{
+            text-decoration: underline;
+        }
+        div p{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Combinadores</h1>
+    <div>
+        <div>
+            <h2>Sistema Operativo</h2>
+            <p>El sistema Operativo es el componente ...</p>
+        </div>
+        <article>
+            <p>Un buen antivirus protege al ordenador...</p>
+        </article>
+    </div>
+</body>
+</html>
