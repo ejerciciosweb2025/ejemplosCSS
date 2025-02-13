@@ -1,0 +1,5 @@
+section{height: 6rem;padding: 1rem;border: 0.1rem solid brown;}
+div{height: 3rem;background-color: blanchedalmond;}
+.izquierda {float: left;}
+.derecha {float: right;}
+.limpiado {clear: both;}

@@ -1,0 +1,3 @@
+table{caption-side: bottom;}
+tr:nth-child(odd){background-color: antiquewhite;}
+tr:nth-child(even){background-color: aquamarine;}

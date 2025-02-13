@@ -1,0 +1,40 @@
+header{
+    background-color: lime;
+    padding: 1rem;
+}
+nav{
+    background-color: yellow;
+    float: left;
+    width: 15%;
+}
+nav{display: block;}
+section{
+    background-color: lightblue;
+    width: 70%;
+    height: 200px;
+    float: left;
+    width: 85%;
+}
+footer{
+    background-color: orange;
+    padding: 1rem;
+    clear: both;
+}
+@media all and (orientation:portrait){
+    nav{
+        float: none;
+        width: 100%;
+    }
+    nav a{
+        display: inline;
+        margin-right: 1rem;
+    }
+    section{
+        width: 100%;
+    }
+}
+@media all and (max-height:800px){
+    footer{
+        display: none;
+    }
+}

@@ -1,0 +1,45 @@
+#panel{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-width: 12px;
+    background-color: #DB6E00;
+    border-color: #F2D841;
+}
+.nota{
+    position: relative
+    width: 17%;
+    height:23%;
+    padding:2% 1% 1% 1%;
+    margin: 1% 3% 1% 3%;
+    float: left;
+    background-color:white;
+    display:inline;
+    /* sombra */
+    box-shadow: 6px 5px 3px hsla(0,0%,0%,.2);
+}
+
+/*transformaciones para dar aspecto desordenado*/
+.nota:nth-child(even){
+    transform: rotate(-3deg);
+}
+/*transformaciones para dar aspecto desordenado*/
+.nota:nth-of-type(3n) {
+    transform: rotate(2deg);
+}
+/*la chincheta añade un espacio y le da forma de redonda y color gris*/
+
+.nota:after{
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: .6rem;
+    position: absolute;
+    margin-top: -0.8%;
+    left: 47%;
+    background-color: gray;
+    /* gradiente para que el círculo parezca una chincheta*/
+    background-image: radial-gradient(white,gray);
+}
+

@@ -1,0 +1,23 @@
+/*se inicializa la lista, se define*/
+ul{
+    counter-reset: lista;
+    list-style-type: none;
+}
+/* cada elemento li incrementa la lista*/
+li{
+    counter-increment: lista;
+    display: block;
+}
+
+/* se inserta el número de lista antes de cada elemento*/
+li:before{
+    content: counter(lista);
+    /*elemento cuadrado con bordes redondeados*/
+    float: left;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    background-color: yellow;
+    /*centramos el elemento*/
+    text-align: center;
+}

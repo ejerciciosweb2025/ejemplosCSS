@@ -1,0 +1,12 @@
+.rot45{
+    transform: rotate(45deg);
+}
+.movida{
+    transform: translate(1rem,1rem);
+}
+.ampliada{
+    transform: scale(1.5,1.5);
+}
+.torcida{
+    transform: skew(20deg,30deg);
+}

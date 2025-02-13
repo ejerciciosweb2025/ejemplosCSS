@@ -1,0 +1,17 @@
+header,section,footer{
+    padding: 3rem;
+    height: 3rem;
+    border: 0.1rem dashed black;
+}
+
+header {
+    background-color: tomato;
+}
+
+section{
+    background-color: chocolate;
+}
+
+footer{
+    background-color: aliceblue;
+}

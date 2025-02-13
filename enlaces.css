@@ -1,0 +1,11 @@
+/*para mostrar uno debajo de otro*/
+a{display: block;}
+/*no visitados*/
+a:link{background-color: lightsalmon;}
+/*visitados*/
+a:visited{background-color: azure;}
+/*al pasar el ratón por encima*/
+a:hover{
+    font-size: 2rem;
+    text-decoration: none;
+}

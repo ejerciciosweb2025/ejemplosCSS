@@ -1,0 +1,33 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 2rem;
+    background-color: white;
+    float: left;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#color {background-color: lightgreen;}
+#imagenCentrada{
+    background-image: url('imagen.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#imagenRepetida{background-image: url('imagen.png');}
+#imagenHorizontal{
+    background-image: url('imagen.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+
+}
+#imagenVertical{
+    background-image: url('imagen.png');
+    background-position: top center;
+    background-repeat: repeat-y;
+}
+#imagenAbajo{
+    background: peru url('imagen.png') no-repeat bottom right;
+}
