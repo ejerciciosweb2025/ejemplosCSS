@@ -3,7 +3,9 @@ console.log(num1);
 console.log(num2);
 resul   =   num1 + num2;
 console.log(resul);
-/** Error */
+
+/*Comentario para crear un error en git aaaaaaaaaaa*/
+
 resul = Number.MAX_VALUE;
 console.log(resul);
 console.log(resul * 2);
